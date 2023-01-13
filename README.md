@@ -18,6 +18,7 @@ This code applied SHAP to investigate feature importance and contribution factor
 These two codes are post-processing tools for applying the partial dependence plot (PDP). The two codes are utilized for categorical and numeric data, respectively.    
 
 # Findings
+The evaluation and comparison of the ML model performances showed that the CatBoost model outperformed all other models with the highest test coefficient of determination (0.9433) and lowest mean absolute error (4.95). Furthermore, the SHAP values indicated that the adsorption experimental conditions provided the highest impact on the model prediction for adsorption capacity (41%), followed by the adsorbent composition (35%), adsorbent characterization (20%), and synthesis conditions (3%). The optimized experimental conditions predicted by the modeling were an N/C ratio of 0.017, BET surface area of 1040 m2/g, the content of C(%) contents of 82.1%, pore volume of 0.46 cm3/g, initial ECs concentration of 100 mg/L, type of pollutant (CAR), adsorption type (Single) and adsorption contact time (720 min). 
 
 # Correspondance
 If you feel any dificulties in executing these codes, please contact us through email on jaffarizh@hotmail.com or gua01114@gmail.com. Thank you
